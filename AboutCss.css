@@ -1,0 +1,61 @@
+@font-face {
+    font-family: arcade;
+    src: url("font/8bitOperatorPlus8-Regular.ttf");
+}
+@font-face {
+    font-family: helvetica;
+    src: url("font/Helvetica.otf");
+}
+@font-face {
+    font-family: alef;
+    src: url("font/Alef-Regular.ttf")
+}
+
+body {
+    background-image: url("img/Mark4.png"), url("img/cool-green.jpg");
+
+    background-position: right, center;
+    background-size: contain, 120%  ;
+    background-repeat: no-repeat;
+    text-align: left;
+    font-family: helvetica;
+    padding-right: 700px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+h1 {
+    font-size: 40px;
+
+}
+h2 {
+    font-size: 40px;
+    font-family: arcade
+}
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+    font-family: alef;
+}
+h4 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer, .push {
+    margin-top: -200px;
+}

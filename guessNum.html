@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="FirstCSS.css"
+    <title >Guess a Number</title>
+</head>
+<body>
+<br>
+<header>
+
+    <h4>Player: <span id="userName"> </span></h4>
+    <br>
+
+
+    <h1>Guess my Number</h1>
+</header>
+<div class="game">
+    <h1>I'm Thinking About a Number <span id="range"> 1 - <span id="max"></span></span></h1>
+    <h2>Can you guess it?</h2>
+
+    <button id="pressGuess" type="button"
+            name="pressGuess" value="pressGuess Application"
+            onclick="userGuess()">Guess!</button >
+    <button id="pressRestart" onclick="location.reload()">Restart</button>
+<br>
+    <br>
+    <br>
+    <h5>This question is worth: <span id="score"></span></h5>
+    <br>
+    <br>
+    <h3>Highscore: <span id="highscore">0</span></h3>
+    <br>
+    <br>
+    <br>
+
+
+    <p id="about" >Created By: <a href="About.html">Mark Rozovsky</a></p>
+</div>
+<script src="js/game.js"></script>
+</body>
+</html>

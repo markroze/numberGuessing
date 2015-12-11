@@ -1,0 +1,71 @@
+@font-face {
+    font-family: neuropol;
+    src: url("font/NEUROPOL.ttf")
+}
+
+
+body {
+background: url("img/numbers.jpg") repeat-y center ;
+background-size: cover;
+    text-align: center;
+    font-family: neuropol;
+    /* button configuration */
+
+}
+title {
+        display: none;
+}
+#pressGuess {
+    background-color: darkolivegreen;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: azure;
+    font-family: neuropol;
+    font-size: 23px;
+}
+#pressGuess:hover {
+    background-color: azure;
+    color: darkolivegreen;
+}
+
+#pressRestart {
+    background-color: darkolivegreen;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: azure;
+    font-family: neuropol;
+    font-size: 23px;
+}
+#pressRestart:hover {
+    background-color: azure;
+    color: darkolivegreen;
+}
+
+h1 {
+    font-size: 37px;
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+
+    color: blue;
+    font-size: 35px;
+}
+
+
+h4 {
+
+    text-align: left;
+    background-color: black;
+    font-size: xx-large;
+    color: dodgerblue;
+}
+
+h5  {
+    font-size: 26px;
+}
+
